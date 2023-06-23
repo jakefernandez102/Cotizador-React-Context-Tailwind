@@ -1,7 +1,7 @@
 import useCotizador from '../hooks/useCotizador';
 import { Formulario } from './Formulario';
 import { Resultado } from './Resultado';
-import { Spinner } from './spinner';
+import { Spinner } from './Spinner';
 
 export const AppSeguro = () => {
   const { cargando } = useCotizador();
